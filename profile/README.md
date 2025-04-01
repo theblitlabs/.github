@@ -6,7 +6,7 @@ Blit Labs maintains a **modular repository structure** to support **Parity Proto
 ## Repository Overview
 
 ### Architecture
-For a detailed architecture of Parity Protocol, visit our [Notion Brain](blitlabs.com/docs).
+For a detailed architecture of Parity Protocol, visit our [Notion Brain](https://blitlabs.com/docs).
 
 ### Core Repositories
 Blit Labs manages the following key repositories:
