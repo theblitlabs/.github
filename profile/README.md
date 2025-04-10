@@ -99,8 +99,8 @@ cd ../parity-wallet
 
 # Copy example configs for core components
 for component in server runner client; do
-    cp parity-${component}/config/config.example.yaml \
-       parity-${component}/config/config.yaml
+    cp parity-${component}/.env.sample \
+       parity-${component}/.env
 done
 ```
 
@@ -111,7 +111,7 @@ Each component requires specific configuration. Follow these steps carefully:
 ##### Server Setup
 
 1. Navigate to `parity-server` directory
-2. Open `config/config.yaml`
+2. Open `.env`
 3. Configure according to the [server documentation](https://github.com/theblitlabs/parity-server)
 4. Key focus areas:
    - Database configuration
@@ -121,7 +121,7 @@ Each component requires specific configuration. Follow these steps carefully:
 ##### Runner Setup
 
 1. Navigate to `parity-runner` directory
-2. Open `config/config.yaml`
+2. Open `.env`
 3. Configure according to the [runner documentation](https://github.com/theblitlabs/parity-runner)
 4. Key focus areas:
    - Docker environment settings
@@ -131,7 +131,7 @@ Each component requires specific configuration. Follow these steps carefully:
 ##### Client Setup
 
 1. Navigate to `parity-client` directory
-2. Open `config/config.yaml`
+2. Open `.env`
 3. Configure according to the [client documentation](https://github.com/theblitlabs/parity-client)
 4. Key focus areas:
    - API configurations
