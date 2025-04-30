@@ -103,6 +103,14 @@ for component in server runner client; do
        parity-${component}/.env
 done
 ```
+##### Deployed Addresses
+
+For reference, here are the current deployed addresses on Ethereum:
+
+- **Stake Wallet Address**: `0x261259e9467E042DBBF372906e17b94fC06942f2`
+- **Token Contract Address**: `0x844303bcC1a347bE6B409Ae159b4040d84876024`
+
+
 
 #### 3. Component Configuration
 
